@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>courcewidget</class>
+ <widget class="QWidget" name="courcewidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>723</width>
+    <height>448</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>欢迎使用本系统</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>681</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;</string>
+   </property>
+   <property name="currentIndex">
+    <number>4</number>
+   </property>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>必修</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>231</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>课程</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>状态</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string>计组</string>
+      </property>
+     </item>
+     <item row="0" column="1">
+      <property name="text">
+       <string>未确定</string>
+      </property>
+     </item>
+     <item row="1" column="0">
+      <property name="text">
+       <string>操作系统</string>
+      </property>
+     </item>
+     <item row="1" column="1">
+      <property name="text">
+       <string>已确定</string>
+      </property>
+     </item>
+     <item row="2" column="0">
+      <property name="text">
+       <string>编译原理</string>
+      </property>
+     </item>
+     <item row="2" column="1">
+      <property name="text">
+       <string>已确定</string>
+      </property>
+     </item>
+     <item row="3" column="0">
+      <property name="text">
+       <string>软件工程</string>
+      </property>
+     </item>
+     <item row="3" column="1">
+      <property name="text">
+       <string>已确定</string>
+      </property>
+     </item>
+     <item row="4" column="0">
+      <property name="text">
+       <string>数据库</string>
+      </property>
+     </item>
+     <item row="4" column="1">
+      <property name="text">
+       <string>未确定</string>
+      </property>
+     </item>
+     <item row="5" column="0">
+      <property name="text">
+       <string>离散数学</string>
+      </property>
+     </item>
+     <item row="5" column="1">
+      <property name="text">
+       <string>未确定</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>10</y>
+       <width>351</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;课程介绍：&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;	计算机组成原理&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;课时数：	40课时&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;任课教师：	舒燕君&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>限选</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>20</y>
+       <width>311</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>课程</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>学分</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>状态</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string>数据库实现</string>
+      </property>
+     </item>
+     <item row="0" column="1">
+      <property name="text">
+       <string>2</string>
+      </property>
+     </item>
+     <item row="0" column="2">
+      <property name="text">
+       <string>未选</string>
+      </property>
+     </item>
+     <item row="1" column="0">
+      <property name="text">
+       <string>信息检索</string>
+      </property>
+     </item>
+     <item row="1" column="1">
+      <property name="text">
+       <string>2</string>
+      </property>
+     </item>
+     <item row="1" column="2">
+      <property name="text">
+       <string>已选</string>
+      </property>
+     </item>
+     <item row="2" column="0">
+      <property name="text">
+       <string>图像处理</string>
+      </property>
+     </item>
+     <item row="2" column="1">
+      <property name="text">
+       <string>2</string>
+      </property>
+     </item>
+     <item row="2" column="2">
+      <property name="text">
+       <string>已选</string>
+      </property>
+     </item>
+     <item row="3" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item row="3" column="2">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item row="4" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item row="4" column="2">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item row="5" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+     <item row="5" column="2">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>311</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>课程</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>学分</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>状态</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string>计组</string>
+      </property>
+     </item>
+     <item row="0" column="1">
+      <property name="text">
+       <string>3</string>
+      </property>
+     </item>
+     <item row="0" column="2">
+      <property name="text">
+       <string>未确定</string>
+      </property>
+     </item>
+     <item row="1" column="0">
+      <property name="text">
+       <string>操作系统</string>
+      </property>
+     </item>
+     <item row="1" column="1">
+      <property name="text">
+       <string>3</string>
+      </property>
+     </item>
+     <item row="1" column="2">
+      <property name="text">
+       <string>已确定</string>
+      </property>
+     </item>
+     <item row="2" column="0">
+      <property name="text">
+       <string>编译原理</string>
+      </property>
+     </item>
+     <item row="2" column="1">
+      <property name="text">
+       <string>3</string>
+      </property>
+     </item>
+     <item row="2" column="2">
+      <property name="text">
+       <string>已确定</string>
+      </property>
+     </item>
+     <item row="3" column="0">
+      <property name="text">
+       <string>软件工程</string>
+      </property>
+     </item>
+     <item row="3" column="1">
+      <property name="text">
+       <string>3</string>
+      </property>
+     </item>
+     <item row="3" column="2">
+      <property name="text">
+       <string>已确定</string>
+      </property>
+     </item>
+     <item row="4" column="0">
+      <property name="text">
+       <string>数据库</string>
+      </property>
+     </item>
+     <item row="4" column="1">
+      <property name="text">
+       <string>3</string>
+      </property>
+     </item>
+     <item row="4" column="2">
+      <property name="text">
+       <string>未确定</string>
+      </property>
+     </item>
+     <item row="5" column="0">
+      <property name="text">
+       <string>离散数学</string>
+      </property>
+     </item>
+     <item row="5" column="1">
+      <property name="text">
+       <string>2</string>
+      </property>
+     </item>
+     <item row="5" column="2">
+      <property name="text">
+       <string>未确定</string>
+      </property>
+     </item>
+     <item row="6" column="0">
+      <property name="text">
+       <string>信息检索</string>
+      </property>
+     </item>
+     <item row="6" column="1">
+      <property name="text">
+       <string>2</string>
+      </property>
+     </item>
+     <item row="6" column="2">
+      <property name="text">
+       <string>限选</string>
+      </property>
+     </item>
+     <item row="7" column="0">
+      <property name="text">
+       <string>图像处理</string>
+      </property>
+     </item>
+     <item row="7" column="1">
+      <property name="text">
+       <string>2</string>
+      </property>
+     </item>
+     <item row="7" column="2">
+      <property name="text">
+       <string>限选</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>全校任选</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>411</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string/>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>课程</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>学分</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>状态</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>人数</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string>中古茶文化</string>
+      </property>
+     </item>
+     <item row="0" column="1">
+      <property name="text">
+       <string>1</string>
+      </property>
+     </item>
+     <item row="0" column="2">
+      <property name="text">
+       <string>未选</string>
+      </property>
+     </item>
+     <item row="0" column="3">
+      <property name="text">
+       <string>133/255</string>
+      </property>
+     </item>
+     <item row="1" column="0">
+      <property name="text">
+       <string>C语言</string>
+      </property>
+     </item>
+     <item row="1" column="1">
+      <property name="text">
+       <string>1</string>
+      </property>
+     </item>
+     <item row="1" column="2">
+      <property name="text">
+       <string>已选</string>
+      </property>
+     </item>
+     <item row="1" column="3">
+      <property name="text">
+       <string>12/50</string>
+      </property>
+     </item>
+     <item row="2" column="0">
+      <property name="text">
+       <string>精神分析</string>
+      </property>
+     </item>
+     <item row="2" column="1">
+      <property name="text">
+       <string>2</string>
+      </property>
+     </item>
+     <item row="2" column="2">
+      <property name="text">
+       <string>已选</string>
+      </property>
+     </item>
+     <item row="2" column="3">
+      <property name="text">
+       <string>129/255</string>
+      </property>
+     </item>
+     <item row="3" column="0">
+      <property name="text">
+       <string>红楼梦</string>
+      </property>
+     </item>
+     <item row="3" column="1">
+      <property name="text">
+       <string>1</string>
+      </property>
+     </item>
+     <item row="3" column="2">
+      <property name="text">
+       <string>已选</string>
+      </property>
+     </item>
+     <item row="3" column="3">
+      <property name="text">
+       <string>15/125</string>
+      </property>
+     </item>
+     <item row="4" column="0">
+      <property name="text">
+       <string>希腊神话</string>
+      </property>
+     </item>
+     <item row="4" column="1">
+      <property name="text">
+       <string>1</string>
+      </property>
+     </item>
+     <item row="4" column="2">
+      <property name="text">
+       <string>未选</string>
+      </property>
+     </item>
+     <item row="4" column="3">
+      <property name="text">
+       <string>30/255</string>
+      </property>
+     </item>
+     <item row="5" column="0">
+      <property name="text">
+       <string>数学分析</string>
+      </property>
+     </item>
+     <item row="5" column="1">
+      <property name="text">
+       <string>3</string>
+      </property>
+     </item>
+     <item row="5" column="2">
+      <property name="text">
+       <string>未选</string>
+      </property>
+     </item>
+     <item row="5" column="3">
+      <property name="text">
+       <string>30/60</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_2">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>20</y>
+       <width>201</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;课程简介：&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;课时数：	12课时&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;任课教师：	XXX&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_5">
+    <attribute name="title">
+     <string>选课结果</string>
+    </attribute>
+    <widget class="QListWidget" name="listWidget">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>111</width>
+       <height>281</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>操作系统</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>编译原理</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>软件工程</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>信息检索</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>图形处理</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>C语言</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>精神分析</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>红楼梦</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_6">
+    <attribute name="title">
+     <string>选课规则</string>
+    </attribute>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>611</width>
+       <height>281</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;哈尔滨工业大学学生选课系统&lt;br /&gt;学生选课系统是教务教学管理信息系统的一个子系统，与其他系统有着密切的联系。学生选课是成绩管理和学生评教的基础。教师通过校园网录入学生所学课程的成绩，学生对任课教师进行教学质量评价都是依据选课数据进行操作的。因此，学生应仔细核对课程数据，认真选课。&lt;br /&gt;哈尔滨工业大学学生选课规则&lt;br /&gt;□ 选课总则： &lt;br /&gt;1. 学生所上的各类课程均要进行确认或选课； &lt;br /&gt;2. 未经确认或选课的课程，学生不能参加学习与考核，擅自参加的成绩无效； &lt;br /&gt;3. 选课结束后，如无特殊情况不能更改，否则不予登记成绩；&lt;br /&gt;4. 如因学生个人原因，未在规定时间内完成选课，一律不接受补选。&lt;br /&gt;□ 必修课确认规则： &lt;br /&gt;学生要进行所有必修课的确认操作。 &lt;br /&gt;□ 限选课选课规则： &lt;br /&gt;学生要根据本专业培养方案的要求进行专业限选课（含专业任选课）的选课，毕业前修满所需学分即可。 &lt;br /&gt;□ 全校任选课选课规则： &lt;br /&gt;1. 各年级、各专业学生可任意选择，毕业前修满培养方案规定的学分即可。 &lt;br /&gt;2. 选课时应该满足课程提出的接纳对象要求及选修条件。 &lt;br /&gt;3. 每人每学期最多选修 2 门。 &lt;br /&gt;4. 不选课去上课所造成无成绩现象 后果自负。 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>20</y>
+     <width>97</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(85, 85, 255);</string>
+   </property>
+   <property name="text">
+    <string>返回主选单</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>20</y>
+     <width>97</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: rgb(85, 85, 255);</string>
+   </property>
+   <property name="text">
+    <string>退出系统</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>教务管理系统</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
